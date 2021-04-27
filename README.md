@@ -1,8 +1,10 @@
 
+<p align="center">
 <img src="http://vetorit.com.br/images/logo-vetor-b-01.png" align="center"/>
 <br/>
 <br/>
 <img src="https://www.zema.com/file/general/logo-zema-azul.png" width="240" align="center"/>
+</p>
 
 <br/>
 <h1 align="center">
