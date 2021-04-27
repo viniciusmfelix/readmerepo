@@ -41,3 +41,5 @@ Estadual: Tributos estaduais
 - [ ] Monitoramento das contas correntes fiscais e estaduais
 - [ ] Controle de entrega das obrigações acessórias (Sped fiscal, EFD contribuições, sped contábil, ECF)
 - [ ] Monitoramento e captura das DARF’s recolhidas
+
+## ⚗️ Configuração para laboratório de testes de requisições
