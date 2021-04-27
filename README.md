@@ -53,9 +53,25 @@ Atualmente, o WebService está realizando consultas de situação fiscal no e-CA
   <img src="https://user-images.githubusercontent.com/53920696/116194945-ec89de00-a707-11eb-8e36-90c47e645ec6.png">
 </p>
 
-- Será disponibilizado via chat, o endpoint atual para cadastro de novos clientes de acesso à aplicação, o corpo da requisição (já com validações inclusa), segue o seguinte padrão (este endpoint não requer autorização):
+- Será disponibilizado via chat, o endpoint atual para cadastro de novos clientes de acesso à aplicação, o corpo da requisição (já com validações inclusa), segue o seguinte padrão (este endpoint não requer autorização nem autenticação):
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/53920696/116195446-9c5f4b80-a708-11eb-88b6-cf03fd75123c.png">
+  <img src="https://user-images.githubusercontent.com/53920696/116196969-85215d80-a70a-11eb-9aae-1f6b7adbc180.png">
+</p>
+
+- Para realizar a consulta no e-CAC para averiguação da situação fiscal, o novo endpoint, além do cliente OAuth para o teste, será disponibilizado via chat para execução. Seus três parâmetros (já incluso validação no endpoint) seguem o seguinte formato (este endpoint requer autenticação OAuth completa (primeira foto)):
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/53920696/116196111-78e8d080-a709-11eb-84c4-c6fe3b5f4428.png">
+</p>
+
+- Após os passos descritos, o endpoint retornará o PDF com a situação fiscal atual sobre a inclusão do CNPJ no Cadin Sisbacen, relembrando que o cliente OAuth (não usuário), será fornecido via chat para testes.
+- Por ser uma API REST, a aplicação não realiza cache de senhas nem certificados, ambos são utilizados única e exclusivamente durante a execução da consulta, sendo armazenado APENAS os dados relacionados ao cliente para autenticação na aplicação.
+
+<br>
+<br>
+<br>
+<p align="center">
+  Feito com 🧡 pela Vetor IT
 </p>
 
