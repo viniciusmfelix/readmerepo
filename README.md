@@ -6,7 +6,6 @@
 <img src="https://www.zema.com/file/general/logo-zema-azul.png" width="240" align="center"/>
 </p>
 
-<br/>
 <h1 align="center">
   FastTaxWS - API
 </h1> 
