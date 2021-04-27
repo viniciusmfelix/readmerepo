@@ -56,7 +56,7 @@ Atualmente, o WebService está realizando consultas de situação fiscal no e-CA
 - Será disponibilizado via chat, o endpoint atual para cadastro de novos clientes de acesso à aplicação, o corpo da requisição (já com validações inclusa), segue o seguinte padrão (este endpoint não requer autorização nem autenticação):
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/53920696/116196969-85215d80-a70a-11eb-9aae-1f6b7adbc180.png">
+  <img src="https://user-images.githubusercontent.com/53920696/116197266-ea754e80-a70a-11eb-98ef-a5c756c0e294.png">
 </p>
 
 - Para realizar a consulta no e-CAC para averiguação da situação fiscal, o novo endpoint, além do cliente OAuth para o teste, será disponibilizado via chat para execução. Seus três parâmetros (já incluso validação no endpoint) seguem o seguinte formato (este endpoint requer autenticação OAuth completa (primeira foto)):
