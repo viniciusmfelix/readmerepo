@@ -43,3 +43,15 @@ Estadual: Tributos estaduais
 - [ ] Monitoramento e captura das DARF’s recolhidas
 
 ## ⚗️ Configuração para laboratório de testes de requisições
+Atualmente, o WebService está realizando consultas de situação fiscal no e-CAC, mas novas funcionalidades já estão sendo trabalhadas e serão implantadas para teste o mais rápido possível. ⚡️
+
+### Consulta Fiscal ao e-CAC 🧾
+- ⏱ O tempo de resposta para este enpoint foi otimizado em 90% do seu tempo inicial (~98s). Ou seja, a requisição hoje, demora em média para ser respondida ~12s.
+- As requisições agora utilizam o cliente OAuth2 criado no banco de dados e designado para cada cliente OAuth da aplicação, isso requer uma nova configuração no cliente REST, porém o modelo continua o mesmo:
+
+![image](https://user-images.githubusercontent.com/53920696/116194945-ec89de00-a707-11eb-8e36-90c47e645ec6.png)
+
+- Será disponibilizado via chat, o endpoint atual para cadastro de novos clientes de acesso à aplicação, o corpo da requisição (já com validações inclusa), segue o seguinte padrão (este endpoint não requer autorização):
+
+![image](https://user-images.githubusercontent.com/53920696/116195446-9c5f4b80-a708-11eb-88b6-cf03fd75123c.png)
+
