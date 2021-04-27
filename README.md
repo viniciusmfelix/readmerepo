@@ -24,4 +24,20 @@
 ## ⚙️ Especificações & Setup
 O projeto se encontra em fase de construção, atualmente na versão 1.0.0 e recebendo atualizações novas constantemente.
 
+Tecnologias do WebService:
 
+- [X] Selenium Web Driver
+- [X] OAuth2.0 Resource/Authorization Server
+- [X] JWT
+- [X] PostgreSQL 11
+
+Funcionalidades Implementadas:
+
+- [X] Monitoramento de situação fiscal no e-CAC
+- [] Monitoramento de domicílio tributário eletrônico
+- [] Consulta das CND's
+Federal: FGTS e INSS
+Estadual: Tributos estaduais
+- [] Monitoramento das contas correntes fiscais e estaduais
+- [] Controle de entrega das obrigações acessórias (Sped fiscal, EFD contribuições, sped contábil, ECF)
+- [] Monitoramento e captura das DARF’s recolhidas
