@@ -22,11 +22,6 @@
 </h4>
 
 ## ⚙️ Especificações & Setup
-O projeto está construído em Maven (Wrapper) e compilado para Java 11 e utilizando PostgreSQL versão 13.1.
+O projeto se encontra em fase de construção, atualmente na versão 1.0.0 e recebendo atualizações novas constantemente.
 
 
-* [JDK 11 (AWS Coretto)](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html)
-
-*Preferência de utilização de Docker (para Windows 10).*
-
-* [Docker Desktop](https://www.docker.com/products/docker-desktop)
