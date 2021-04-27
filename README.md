@@ -34,10 +34,10 @@ Tecnologias do WebService:
 Funcionalidades Implementadas:
 
 - [X] Monitoramento de situação fiscal no e-CAC
-- [] Monitoramento de domicílio tributário eletrônico
-- [] Consulta das CND's
+- [ ] Monitoramento de domicílio tributário eletrônico
+- [ ] Consulta das CND's
 Federal: FGTS e INSS
 Estadual: Tributos estaduais
-- [] Monitoramento das contas correntes fiscais e estaduais
-- [] Controle de entrega das obrigações acessórias (Sped fiscal, EFD contribuições, sped contábil, ECF)
-- [] Monitoramento e captura das DARF’s recolhidas
+- [ ] Monitoramento das contas correntes fiscais e estaduais
+- [ ] Controle de entrega das obrigações acessórias (Sped fiscal, EFD contribuições, sped contábil, ECF)
+- [ ] Monitoramento e captura das DARF’s recolhidas
