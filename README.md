@@ -1,9 +1,9 @@
-<h1 align="center">
-	<img src="http://vetorit.com.br/images/logo-vetor-b-01.png"/>
-  <br/>
-  <br/>
-  <img src="https://www.zema.com/file/general/logo-zema-azul.png" width="240"/>
-</h1>
+
+<img src="http://vetorit.com.br/images/logo-vetor-b-01.png" align="center"/>
+<br/>
+<br/>
+<img src="https://www.zema.com/file/general/logo-zema-azul.png" width="240" align="center"/>
+
 <br/>
 <h1 align="center">
   FastTaxWS - API
